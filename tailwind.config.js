@@ -2,7 +2,11 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      width:{
+        "favW":"380px"
+      }
+    },
   },
   plugins: [],
 }
